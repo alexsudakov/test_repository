@@ -1,0 +1,12 @@
+version: 1
+routing:
+  protected_paths:
+    - '.dev/**'
+    - 'tests/**'
+critic:
+  required_paths:
+    - '.dev/**'
+    - 'tests/**'
+checks:
+  required:
+    - "python -m unittest discover -s tests -p 'test_*.py' -v"
