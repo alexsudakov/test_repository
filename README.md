@@ -3,3 +3,7 @@
 ## FINALIZE v3 production canary
 
 Проверка автоматизированной публикации.
+
+## Control-plane stability canary 2
+
+Повторная проверка после стабилизации control plane.
